@@ -1,0 +1,36 @@
+#Day1
+#Exercise 2
+print(4+3)
+print(4-3)
+print(4*3)
+print(4/3)
+print(4**3)
+print(4//3)
+print('alex')
+print('bd')
+print('Spain')
+print('I am enjoying 30 days of python')
+print(type(10))
+print(type(9.8))
+print(type(3.14))
+print(type(4-4j))
+print(type(['Asabeneh', 'Python', 'Finland']))
+print(type('alex'))
+print(type('bd'))
+print(type('Spain'))
+
+#Exercise 3
+print(type(5))
+print(type(5.5))
+print(type(5+5j))
+print(type('aaa'))
+print(type(True))
+print(type(['aaa',10]))
+print(type(('aaaa','bbbb')))
+print(type({1:'aaa',2:'bbb'}))
+print(type({1,2,3}))
+
+#Excercise 4 euclidian (2,3),(10,8)
+import math
+dist = math.sqrt((10-2)**2+(8-3)**2)
+print(dist)

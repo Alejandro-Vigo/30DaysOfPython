@@ -1,15 +1,26 @@
 #Day 27: 30 Days of python programming
 
 from flask import Flask
-import pymongo
 from bson import ObjectId  # Import ObjectId to use it in queries
 import os
+from pymongo.mongo_client import MongoClient
+from pymongo.server_api import ServerApi
 
-# MongoDB URI
-MONGODB_URI = 'mongodb+srv://porsiaca62:testmongo@cluster0.nfd8zpq.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'
+# Get the MongoDB URI from environment variables
+uri = os.environ.get('MONGODB_URI')
 
-# Connect to MongoDB
-client = pymongo.MongoClient(MONGODB_URI)
+if not uri:
+    raise ValueError("MONGODB_URI environment variable is not set!")
+
+# Create a new client and connect to the server
+client = MongoClient(uri, server_api=ServerApi('1'))
+
+# Send a ping to confirm a successful connection
+try:
+    client.admin.command('ping')
+    print("Successfully connected to MongoDB!")
+except Exception as e:
+    print(f"Error connecting to MongoDB: {e}")
 
 # Database selection
 db = client['thirty_days_of_python']

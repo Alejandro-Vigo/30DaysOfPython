@@ -22,6 +22,19 @@ try:
 except Exception as e:
     print(f"Error connecting to MongoDB: {e}")
 
+if not uri:
+    raise ValueError("MONGODB_URI environment variable is not set!")
+
+# Create a new client and connect to the server
+client = MongoClient(uri, server_api=ServerApi('1'))
+
+# Send a ping to confirm a successful connection
+try:
+    client.admin.command('ping')
+    print("Successfully connected to MongoDB!")
+except Exception as e:
+    print(f"Error connecting to MongoDB: {e}")
+
 # Database selection
 db = client['thirty_days_of_python']
 

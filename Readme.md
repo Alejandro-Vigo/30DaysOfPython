@@ -30,6 +30,7 @@ Each day includes exercises, notes, and code examples.
 
 ## 📂 Project Structure
 
+<<<<<<< HEAD
 - `30DaysOfPython/`
   - `Day_01/` – Introduction & setup
   - `Day_02/` – Variables, built-in functions
@@ -61,6 +62,42 @@ Each day includes exercises, notes, and code examples.
   - `Day_28/` – Applications
   - `Day_29/` – Tkinter / GUI
   - `Day_30/` – Final project
+=======
+30DaysOfPython/
+│
+├── Day_01/ # Introduction & setup
+├── Day_02/ # Variables, built-in functions
+├── Day_03/ # Operators
+├── Day_04/ # Strings
+├── Day_05/ # Lists
+├── Day_06/ # Tuples
+├── Day_07/ # Sets
+├── Day_08/ # Dictionaries
+├── Day_09/ # Conditionals
+├── Day_10/ # Loops
+├── Day_11/ # Functions
+├── Day_12/ # Modules
+├── Day_13/ # List comprehension
+├── Day_14/ # Higher-order functions
+├── Day_15/ # Error handling
+├── Day_16/ # Date & time
+├── Day_17/ # Exception handling
+├── Day_18/ # Regular expressions
+├── Day_19/ # File handling
+├── Day_20/ # Python package manager
+├── Day_21/ # Classes & objects
+├── Day_22/ # Web scraping
+├── Day_23/ # Virtual environment
+├── Day_24/ # Statistics
+├── Day_25/ # Pandas
+├── Day_26/ # APIs
+├── Day_27/ # JSON
+├── Day_28/ # Applications
+├── Day_29/ # Tkinter / GUI
+└── Day_30/ # Final project
+
+> (If your folder names differ, you can adjust the structure.)
+>>>>>>> b3d9164 (Initial commit)
 
 ---
 
@@ -82,6 +119,21 @@ Each day includes exercises, notes, and code examples.
 
 ---
 
+<<<<<<< HEAD
+=======
+## 📈 Progress
+
+| Day | Topic       | Status       |
+|-----|------------|-------------|
+| 1   | Introduction | ✅ Done     |
+| 2   | Variables    | 🟦 In progress |
+| …   | …           | …           |
+
+> (I can generate this full table automatically as you progress.)
+
+---
+
+>>>>>>> b3d9164 (Initial commit)
 ## 🤝 Acknowledgements
 
 Challenge inspired by **Asabeneh Yetayeh’s 30 Days of Python project**.
@@ -90,4 +142,8 @@ Challenge inspired by **Asabeneh Yetayeh’s 30 Days of Python project**.
 
 ## 🐍 Let’s Connect
 
+<<<<<<< HEAD
 If you’re also doing this challenge, feel free to **connect or share tips**!
+=======
+If you’re also doing this challenge, feel free to **connect or share tips**!
+>>>>>>> b3d9164 (Initial commit)
